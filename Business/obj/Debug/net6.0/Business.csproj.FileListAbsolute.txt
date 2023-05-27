@@ -1,0 +1,17 @@
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Business\bin\Debug\net6.0\Business.deps.json
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Business\bin\Debug\net6.0\Business.dll
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Business\bin\Debug\net6.0\Business.pdb
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Business\bin\Debug\net6.0\DataAccsess.dll
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Business\bin\Debug\net6.0\Entities.dll
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Business\bin\Debug\net6.0\DataAccsess.pdb
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Business\bin\Debug\net6.0\Entities.pdb
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Business\obj\Debug\net6.0\Business.csproj.AssemblyReference.cache
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Business\obj\Debug\net6.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Business\obj\Debug\net6.0\Business.AssemblyInfoInputs.cache
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Business\obj\Debug\net6.0\Business.AssemblyInfo.cs
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Business\obj\Debug\net6.0\Business.csproj.CoreCompileInputs.cache
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Business\obj\Debug\net6.0\Business.csproj.CopyComplete
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Business\obj\Debug\net6.0\Business.dll
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Business\obj\Debug\net6.0\refint\Business.dll
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Business\obj\Debug\net6.0\Business.pdb
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Business\obj\Debug\net6.0\ref\Business.dll

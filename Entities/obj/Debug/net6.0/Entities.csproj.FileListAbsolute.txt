@@ -1,0 +1,12 @@
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Entities\bin\Debug\net6.0\Entities.deps.json
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Entities\bin\Debug\net6.0\Entities.dll
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Entities\bin\Debug\net6.0\Entities.pdb
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Entities\obj\Debug\net6.0\Entities.dll
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Entities\obj\Debug\net6.0\refint\Entities.dll
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Entities\obj\Debug\net6.0\Entities.pdb
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Entities\obj\Debug\net6.0\ref\Entities.dll

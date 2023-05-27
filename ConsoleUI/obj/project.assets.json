@@ -1,11 +1,69 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DataAccsess": "1.0.0",
+          "Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business.dll": {}
+        }
+      },
+      "DataAccsess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataAccsess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccsess.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Business/1.0.0": {
+      "type": "project",
+      "path": "../Business/Business.csproj",
+      "msbuildProject": "../Business/Business.csproj"
+    },
+    "DataAccsess/1.0.0": {
+      "type": "project",
+      "path": "../DataAccsess/DataAccsess.csproj",
+      "msbuildProject": "../DataAccsess/DataAccsess.csproj"
+    },
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../Entities/Entities.csproj",
+      "msbuildProject": "../Entities/Entities.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Business >= 1.0.0",
+      "DataAccsess >= 1.0.0",
+      "Entities >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\incar\\.nuget\\packages\\": {},
@@ -37,7 +95,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Business\\Business.csproj": {
+              "projectPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Business\\Business.csproj"
+            },
+            "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\DataAccsess.csproj": {
+              "projectPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\DataAccsess.csproj"
+            },
+            "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj": {
+              "projectPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

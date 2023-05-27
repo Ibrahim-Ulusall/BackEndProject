@@ -1,0 +1,15 @@
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\DataAccsess\bin\Debug\net6.0\DataAccsess.deps.json
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\DataAccsess\bin\Debug\net6.0\DataAccsess.dll
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\DataAccsess\bin\Debug\net6.0\DataAccsess.pdb
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\DataAccsess\bin\Debug\net6.0\Entities.dll
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\DataAccsess\bin\Debug\net6.0\Entities.pdb
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\DataAccsess\obj\Debug\net6.0\DataAccsess.csproj.AssemblyReference.cache
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\DataAccsess\obj\Debug\net6.0\DataAccsess.GeneratedMSBuildEditorConfig.editorconfig
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\DataAccsess\obj\Debug\net6.0\DataAccsess.AssemblyInfoInputs.cache
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\DataAccsess\obj\Debug\net6.0\DataAccsess.AssemblyInfo.cs
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\DataAccsess\obj\Debug\net6.0\DataAccsess.csproj.CoreCompileInputs.cache
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\DataAccsess\obj\Debug\net6.0\DataAccsess.csproj.CopyComplete
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\DataAccsess\obj\Debug\net6.0\DataAccsess.dll
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\DataAccsess\obj\Debug\net6.0\refint\DataAccsess.dll
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\DataAccsess\obj\Debug\net6.0\DataAccsess.pdb
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\DataAccsess\obj\Debug\net6.0\ref\DataAccsess.dll
