@@ -39,7 +39,7 @@ namespace DataAccsess.Concrete.InMemory
         {
             return products;
         }
-        //Kategory listele
+        //Kategori listele
         public List<Product> GetAllByCategory(int categoryId)
         {
             return products.Where(p => p.CategoryId == categoryId).ToList();
