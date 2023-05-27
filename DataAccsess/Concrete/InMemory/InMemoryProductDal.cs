@@ -3,6 +3,7 @@ using Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -34,15 +35,15 @@ namespace DataAccsess.Concrete.InMemory
             Product productToDelete = products.SingleOrDefault(p => p.ProductId == product.ProductId);
             products.Remove(productToDelete);
         }
-        //Urun listele
-        public List<Product> GetAll()
+
+        public Product Get(Expression<Func<Product, bool>> filter)
         {
-            return products;
+            throw new NotImplementedException();
         }
-        //Kategori listele
-        public List<Product> GetAllByCategory(int categoryId)
+
+        public List<Product> GetAll(Expression<Func<Product, bool>> filter = null)
         {
-            return products.Where(p => p.CategoryId == categoryId).ToList();
+            throw new NotImplementedException();
         }
 
         //Urun guncelle
