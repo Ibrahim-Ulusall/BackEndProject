@@ -39,6 +39,12 @@ namespace DataAccsess.Concrete.InMemory
         {
             return products;
         }
+
+        public List<Product> GetAllByCategory(int categoryId)
+        {
+            return products.Where(p => p.CategoryId == categoryId).ToList();
+        }
+
         //Urun guncelle
         public void Update(Product product)
         {
