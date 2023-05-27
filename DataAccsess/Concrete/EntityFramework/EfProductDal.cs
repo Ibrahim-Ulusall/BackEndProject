@@ -7,7 +7,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccsess.Concrete.Entity_Framework
+namespace DataAccsess.Concrete.EntityFramework
 {
     public class EfProductDal : IProductDal
     {
