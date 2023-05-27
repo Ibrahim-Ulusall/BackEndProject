@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Entities.Abstract
 {
-    internal class IEntity
+    public interface IEntity
     {
+        
     }
 }
