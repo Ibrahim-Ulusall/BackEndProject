@@ -13,3 +13,5 @@
 \\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\DataAccsess\obj\Debug\net6.0\refint\DataAccsess.dll
 \\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\DataAccsess\obj\Debug\net6.0\DataAccsess.pdb
 \\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\DataAccsess\obj\Debug\net6.0\ref\DataAccsess.dll
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\DataAccsess\bin\Debug\net6.0\Core.dll
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\DataAccsess\bin\Debug\net6.0\Core.pdb

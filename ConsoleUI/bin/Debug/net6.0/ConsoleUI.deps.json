@@ -564,8 +564,17 @@
           "Business.dll": {}
         }
       },
+      "Core/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.0-preview.4.23259.3"
+        },
+        "runtime": {
+          "Core.dll": {}
+        }
+      },
       "DataAccsess/1.0.0": {
         "dependencies": {
+          "Core": "1.0.0",
           "Entities": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0-preview.4.23259.3"
         },
@@ -574,6 +583,9 @@
         }
       },
       "Entities/1.0.0": {
+        "dependencies": {
+          "Core": "1.0.0"
+        },
         "runtime": {
           "Entities.dll": {}
         }
@@ -965,6 +977,11 @@
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
     "Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccsess.Concrete.EntityFramework
 {
-	public class EfOrderDal : EfEntityRepositoryBase<Orders, NorthwindContext>, IOrderDal
+	public class EfOrderDal : EfEntityRepositoryBase<Order, NorthwindContext>, IOrderDal
 	{
 	}
 }

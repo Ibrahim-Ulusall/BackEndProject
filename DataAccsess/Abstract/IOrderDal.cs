@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccsess.Abstract
 {
-	public interface IOrderDal : IEntityRepository<Orders>
+	public interface IOrderDal : IEntityRepository<Order>
 	{
 	}
 }
