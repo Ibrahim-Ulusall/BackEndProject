@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "iiYcDmq/j2k+LzW7qgRHls04wolx+KPxghscnduRN3I37DsS1ExN3S0zh6kKLosShzUTWXtiSY7HPFnA5HeVxg==",
+  "dgSpecHash": "YZZUBPO4Zntmt7XQgT7ZI1AruNQS6H8inGe1N1fHZs+mBxN/rffLu48uvsGht1LNE2bxIWdRFqzVEr7KlXS8/A==",
   "success": true,
   "projectFilePath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\incar\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.7\\microsoft.entityframeworkcore.7.0.7.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.7\\microsoft.entityframeworkcore.abstractions.7.0.7.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.7\\microsoft.entityframeworkcore.analyzers.7.0.7.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
