@@ -4,16 +4,16 @@ using DataAccsess.Concrete.EntityFramework;
 using DataAccsess.Concrete.InMemory;
 using Entities.Concrete;
 
-//ProductTest();
+ProductTest();
 //CategoryTest();
 static void ProductTest()
 {
 	ProductManager productManager = new ProductManager(new EfProductDal());
 
 
-	foreach (Product product in productManager.GetAll())
+	foreach (var product in productManager.GetProductDetails())
 	{
-		Console.WriteLine(product.ProductName);
+		Console.WriteLine(String.Format("{0:0000}  {1:30}  {2:30}  {3:0000000000}", product.ProductId, product.CategoryName, product.ProductName, product.UnitsInStock));
 	}
 }
 

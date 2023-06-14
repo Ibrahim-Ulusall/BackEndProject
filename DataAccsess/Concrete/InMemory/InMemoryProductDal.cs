@@ -1,5 +1,6 @@
 ﻿using DataAccsess.Abstract;
 using Entities.Concrete;
+using Entities.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -46,8 +47,13 @@ namespace DataAccsess.Concrete.InMemory
             throw new NotImplementedException();
         }
 
-        //Urun guncelle
-        public void Update(Product product)
+		public List<ProductDetailDto> GetProductDetails()
+		{
+			throw new NotImplementedException();
+		}
+
+		//Urun guncelle
+		public void Update(Product product)
         {
             Product productToUpdate = products.SingleOrDefault(p => p.ProductId == product.ProductId);
 
