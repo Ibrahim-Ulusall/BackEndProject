@@ -964,10 +964,21 @@
           }
         }
       },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      },
       "DataAccsess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Core": "1.0.0",
           "Entities": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0-preview.4.23259.3"
         },
@@ -981,6 +992,9 @@
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Entities.dll": {}
         },
@@ -2655,6 +2669,11 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
     },
     "DataAccsess/1.0.0": {
       "type": "project",

@@ -964,9 +964,22 @@
           }
         }
       },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      },
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Entities.dll": {}
         },
@@ -2642,6 +2655,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
+    },
     "Entities/1.0.0": {
       "type": "project",
       "path": "../Entities/Entities.csproj",
@@ -2650,6 +2668,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Core >= 1.0.0",
       "Entities >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0-preview.4.23259.3"
     ]
@@ -2687,6 +2706,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj": {
+              "projectPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj"
+            },
             "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj": {
               "projectPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj"
             }

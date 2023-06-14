@@ -50,11 +50,12 @@ namespace DataAccsess.Concrete.InMemory
         public void Update(Product product)
         {
             Product productToUpdate = products.SingleOrDefault(p => p.ProductId == product.ProductId);
-            productToUpdate.ProductId = product.ProductId;
+
             productToUpdate.CategoryId = product.CategoryId;
             productToUpdate.ProductName = product.ProductName;
             productToUpdate.UnitsInStock = product.UnitsInStock;
             productToUpdate.UnitPrice = product.UnitPrice;
+                
         }
     }
 }
