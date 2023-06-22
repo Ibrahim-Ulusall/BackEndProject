@@ -39,7 +39,7 @@ namespace DataAccsess.Concrete.InMemory
 
         public Product Get(Expression<Func<Product, bool>> filter)
         {
-            throw new NotImplementedException();
+            return products.SingleOrDefault(filter);
         }
 
         public List<Product> GetAll(Expression<Func<Product, bool>> filter = null)
