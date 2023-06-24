@@ -1,4 +1,7 @@
-﻿using Entities.Concrete;
+﻿using Business.Abstract;
+using Business.Concrete;
+using DataAccsess.Concrete.EntityFramework;
+using Entities.Concrete;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,14 +11,16 @@ namespace WebAPI.Controllers
 	[ApiController]
 	public class ProductsController : ControllerBase
 	{
-		[HttpGet]
+		IProductService _productService;
+        public ProductsController(IProductService productService)
+        {
+			_productService = productService;
+        }
+        [HttpGet]
 		public List<Product> GetProducts()
 		{
-			return new List<Product>
-			{
-				new Product{ ProductId = 1, ProductName = "Apple"},
-				new Product {ProductId = 2, ProductName = "Telephone"}
-			};
+			var result = _productService.GetAll();
+			return result.Data;
 		}
 	}
 }
