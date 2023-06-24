@@ -26,6 +26,7 @@ namespace Business.Concrete
             {
                 return new ErrorResult(Messages.ProductNameInvalid);
             }
+            _productDal.Add(product);
             return new SuccessResult(Messages.AddedMessage);
 		}
 
