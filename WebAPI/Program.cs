@@ -1,6 +1,8 @@
 
 using Business.Abstract;
 using Business.Concrete;
+using DataAccsess.Abstract;
+using DataAccsess.Concrete.EntityFramework;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,8 +12,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddSingleton<IProductService,ProductManager>();
-
+builder.Services.AddSingleton<IProductService, ProductManager>();
+builder.Services.AddSingleton<IProductDal, EfProductDal>();
 
 var app = builder.Build();
 
@@ -29,3 +31,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+

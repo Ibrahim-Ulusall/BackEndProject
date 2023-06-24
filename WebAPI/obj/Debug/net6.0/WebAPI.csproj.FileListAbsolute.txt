@@ -85,3 +85,8 @@
 \\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\WebAPI\bin\Debug\net6.0\DataAccsess.dll
 \\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\WebAPI\bin\Debug\net6.0\Business.pdb
 \\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\WebAPI\bin\Debug\net6.0\DataAccsess.pdb
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\WebAPI\bin\Debug\net6.0\Microsoft.AspNet.SignalR.Core.dll
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\WebAPI\bin\Debug\net6.0\Microsoft.Owin.dll
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\WebAPI\bin\Debug\net6.0\Microsoft.Owin.Security.dll
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\WebAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\WebAPI\bin\Debug\net6.0\Owin.dll
