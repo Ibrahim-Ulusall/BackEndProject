@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/LsGXG9lUy6UNEWf/I3hSNRgYvD7zkA35WQT2JO6VjpVo3FM+k4XZzufErTxOl0zsrz874aAtXvQHZk+UoHCqg==",
+  "dgSpecHash": "5RBshuT9YPrZhfxUPnefouOSF3AalMatNjO2THKdd8UB0nboYq3PtxerkdFmYHSnbDjfK9aSeqGkBF4V0u2PZg==",
   "success": true,
-  "projectFilePath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\ConsoleUI\\ConsoleUI.csproj",
+  "projectFilePath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\incar\\.nuget\\packages\\autofac\\7.0.1\\autofac.7.0.1.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

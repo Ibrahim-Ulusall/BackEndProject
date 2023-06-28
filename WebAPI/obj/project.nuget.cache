@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "BpLd+S+lAE1B5q2Wp63Vo7AFT+l1kO66PP6b0hmQjYA1T2XcreN3fFSQlAP7A+/Oduebpwm71RNvoV+TxxRyKQ==",
+  "dgSpecHash": "R+KhfP+C3KcaZ2fdvbNp48z5wIGoNwi0/pUQB/GXB+89MVSKzZQvLiTSCap0LLLvelAU9yk0B/HTI0vmuGBOUg==",
   "success": true,
-  "projectFilePath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\incar\\.nuget\\packages\\autofac\\7.0.1\\autofac.7.0.1.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\microsoft.aspnet.signalr.core\\2.4.3\\microsoft.aspnet.signalr.core.2.4.3.nupkg.sha512",

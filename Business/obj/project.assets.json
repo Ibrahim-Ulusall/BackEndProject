@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Autofac/7.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
+        },
+        "compile": {
+          "lib/net6.0/Autofac.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Autofac.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Azure.Core/1.25.0": {
         "type": "package",
         "dependencies": {
@@ -1008,6 +1024,27 @@
     }
   },
   "libraries": {
+    "Autofac/7.0.1": {
+      "sha512": "J9Iz0Q+YU3uf82i8Lee0NpQOlRYfwHxwVV26jdG3zH3LFE5Y9Rx97Mju7Nswwzh/C7kVJALkTL860Y7e+mcLaw==",
+      "type": "package",
+      "path": "autofac/7.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "autofac.7.0.1.nupkg.sha512",
+        "autofac.nuspec",
+        "icon.png",
+        "lib/net6.0/Autofac.dll",
+        "lib/net6.0/Autofac.xml",
+        "lib/net7.0/Autofac.dll",
+        "lib/net7.0/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.xml",
+        "lib/netstandard2.1/Autofac.dll",
+        "lib/netstandard2.1/Autofac.xml"
+      ]
+    },
     "Azure.Core/1.25.0": {
       "sha512": "X8Dd4sAggS84KScWIjEbFAdt2U1KDolQopTPoHVubG2y3CM54f9l6asVrP5Uy384NWXjsspPYaJgz5xHc+KvTA==",
       "type": "package",
@@ -2691,6 +2728,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Autofac >= 7.0.1",
       "DataAccsess >= 1.0.0",
       "Entities >= 1.0.0"
     ]
@@ -2702,11 +2740,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Business\\Business.csproj",
+      "projectUniqueName": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Business\\Business.csproj",
       "projectName": "Business",
-      "projectPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Business\\Business.csproj",
+      "projectPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Business\\Business.csproj",
       "packagesPath": "C:\\Users\\incar\\.nuget\\packages\\",
-      "outputPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Business\\obj\\",
+      "outputPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2728,11 +2766,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\DataAccsess.csproj": {
-              "projectPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\DataAccsess.csproj"
+            "C:\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\DataAccsess.csproj": {
+              "projectPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\DataAccsess.csproj"
             },
-            "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj": {
-              "projectPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj"
+            "C:\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj"
             }
           }
         }
@@ -2746,6 +2784,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "Autofac": {
+            "target": "Package",
+            "version": "[7.0.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
