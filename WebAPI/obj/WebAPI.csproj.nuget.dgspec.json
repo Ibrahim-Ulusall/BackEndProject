@@ -55,6 +55,10 @@
             "Autofac": {
               "target": "Package",
               "version": "[7.0.1, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
