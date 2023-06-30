@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "33dxDdsmKUWECEU4IE6Gxs6PBSo7WzPSrA8iZQpEYhEE2rNxJg8N7RbOtkwA9R3ecAGXusvAMYsNSdgB1JS9qw==",
+  "dgSpecHash": "qHFrxpIWfMxYoApffb5R2RTs9sTvSjOBRz6CSYIovHZiaTKmuvGXmUkMb235aDUrgsPOcki/F3Pq82vPkth0Hg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\incar\\.nuget\\packages\\autofac\\7.0.1\\autofac.7.0.1.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
@@ -10,6 +10,7 @@
     "C:\\Users\\incar\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\microsoft.aspnet.signalr.core\\2.4.3\\microsoft.aspnet.signalr.core.2.4.3.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

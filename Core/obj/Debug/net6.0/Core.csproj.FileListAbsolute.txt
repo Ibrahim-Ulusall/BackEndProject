@@ -10,3 +10,15 @@
 \\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Core\obj\Debug\net6.0\refint\Core.dll
 \\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Core\obj\Debug\net6.0\Core.pdb
 \\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\Core\obj\Debug\net6.0\ref\Core.dll
+C:\Users\incar\Source\Repos\Final Project\Core\bin\Debug\net6.0\Core.deps.json
+C:\Users\incar\Source\Repos\Final Project\Core\bin\Debug\net6.0\Core.dll
+C:\Users\incar\Source\Repos\Final Project\Core\bin\Debug\net6.0\Core.pdb
+C:\Users\incar\Source\Repos\Final Project\Core\obj\Debug\net6.0\Core.csproj.AssemblyReference.cache
+C:\Users\incar\Source\Repos\Final Project\Core\obj\Debug\net6.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\incar\Source\Repos\Final Project\Core\obj\Debug\net6.0\Core.AssemblyInfoInputs.cache
+C:\Users\incar\Source\Repos\Final Project\Core\obj\Debug\net6.0\Core.AssemblyInfo.cs
+C:\Users\incar\Source\Repos\Final Project\Core\obj\Debug\net6.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\incar\Source\Repos\Final Project\Core\obj\Debug\net6.0\Core.dll
+C:\Users\incar\Source\Repos\Final Project\Core\obj\Debug\net6.0\refint\Core.dll
+C:\Users\incar\Source\Repos\Final Project\Core\obj\Debug\net6.0\Core.pdb
+C:\Users\incar\Source\Repos\Final Project\Core\obj\Debug\net6.0\ref\Core.dll

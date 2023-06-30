@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Jj1kNYptN/Ud6FpwCR46BYTPISh3Vh8kWkzKF+feqpksvrLxqqBTC8YOU7jH5O6SYH5QjJvIQ+4FyUiWbEuwVw==",
+  "dgSpecHash": "gfr2GcgJpn7pPUnapw3XdymTvbqLYr0FiGsVnV3KNiO1W7GQHEWkTE3r+7XfbuEiohPeShC6lEbgUsn0i0yOkA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj",
+  "projectFilePath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\incar\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.7\\microsoft.entityframeworkcore.7.0.7.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.7\\microsoft.entityframeworkcore.abstractions.7.0.7.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.7\\microsoft.entityframeworkcore.analyzers.7.0.7.nupkg.sha512",

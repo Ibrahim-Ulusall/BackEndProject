@@ -1,14 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "Vrv+yDJZykUhM6Qk+NC+7l5LS1AMnC1lSP4bqZ29LFWOBRHdoRgOCQqXGw5X5b2WZtEHSa9fzC3nYVPGsDNS+g==",
+  "dgSpecHash": "kx+AFsfIiYxUCYHj/8J6xNfwczy5n8CRdpq150/tkpuqtUFddFDgygbqCqOH6StpmBiajlrBzHhFgGypauEefw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Business\\Business.csproj",
+  "projectFilePath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\incar\\.nuget\\packages\\autofac\\7.0.1\\autofac.7.0.1.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\autofac.extras.dynamicproxy\\7.0.0\\autofac.extras.dynamicproxy.7.0.0.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",
