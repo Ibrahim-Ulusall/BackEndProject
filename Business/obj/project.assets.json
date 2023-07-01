@@ -18,6 +18,23 @@
           }
         }
       },
+      "Autofac.Extensions.DependencyInjection/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "6.4.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Autofac.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Autofac.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Autofac.Extras.DynamicProxy/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -1056,6 +1073,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Autofac": "7.0.1",
+          "Autofac.Extensions.DependencyInjection": "8.0.0",
+          "Autofac.Extras.DynamicProxy": "7.1.0",
           "FluentValidation": "11.5.2",
           "Microsoft.EntityFrameworkCore": "7.0.7"
         },
@@ -1116,6 +1136,26 @@
         "lib/netstandard2.0/Autofac.xml",
         "lib/netstandard2.1/Autofac.dll",
         "lib/netstandard2.1/Autofac.xml"
+      ]
+    },
+    "Autofac.Extensions.DependencyInjection/8.0.0": {
+      "sha512": "nGrXNpQX2FiZpIBydK9cxZnnoqP/cUd3k/53uRERYEqLtWzKtE15R6L+j5q5ax5Rv/+3wAIkOaPePkahfqrwjg==",
+      "type": "package",
+      "path": "autofac.extensions.dependencyinjection/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+        "autofac.extensions.dependencyinjection.nuspec",
+        "icon.png",
+        "lib/net5.0/Autofac.Extensions.DependencyInjection.dll",
+        "lib/net5.0/Autofac.Extensions.DependencyInjection.xml",
+        "lib/net6.0/Autofac.Extensions.DependencyInjection.dll",
+        "lib/net6.0/Autofac.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.xml"
       ]
     },
     "Autofac.Extras.DynamicProxy/7.0.0": {
@@ -2910,11 +2950,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Business\\Business.csproj",
+      "projectUniqueName": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Business\\Business.csproj",
       "projectName": "Business",
-      "projectPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Business\\Business.csproj",
+      "projectPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Business\\Business.csproj",
       "packagesPath": "C:\\Users\\incar\\.nuget\\packages\\",
-      "outputPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Business\\obj\\",
+      "outputPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2936,11 +2976,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\DataAccsess.csproj": {
-              "projectPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\DataAccsess.csproj"
+            "C:\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\DataAccsess.csproj": {
+              "projectPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\DataAccsess.csproj"
             },
-            "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj": {
-              "projectPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj"
+            "C:\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj"
             }
           }
         }
@@ -2987,5 +3027,25 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Hata Olarak Uyarı: Autofac.Extras.DynamicProxy paketi için 7.1.0 sürümünden 7.0.0 sürümüne düşürme algılandı. Farklı bir sürüm seçmek için doğrudan projeden pakete başvurun. \r\n Business -> Entities -> Core -> Autofac.Extras.DynamicProxy (>= 7.1.0) \r\n Business -> Autofac.Extras.DynamicProxy (>= 7.0.0)",
+      "libraryId": "Autofac.Extras.DynamicProxy",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Hata Olarak Uyarı: Autofac.Extras.DynamicProxy paketi için 7.1.0 sürümünden 7.0.0 sürümüne düşürme algılandı. Farklı bir sürüm seçmek için doğrudan projeden pakete başvurun. \r\n Business -> DataAccsess -> Core -> Autofac.Extras.DynamicProxy (>= 7.1.0) \r\n Business -> Autofac.Extras.DynamicProxy (>= 7.0.0)",
+      "libraryId": "Autofac.Extras.DynamicProxy",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "kx+AFsfIiYxUCYHj/8J6xNfwczy5n8CRdpq150/tkpuqtUFddFDgygbqCqOH6StpmBiajlrBzHhFgGypauEefw==",
-  "success": true,
-  "projectFilePath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Business\\Business.csproj",
+  "dgSpecHash": "9gj5UK3ht0+I8+RwbZwsK3/YIMCWK1MAxtRnboYnhuSAZ829nyIkqvfNlCRxgDFY/FbxfnnFh7ZawmHX8pke4w==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\incar\\.nuget\\packages\\autofac\\7.0.1\\autofac.7.0.1.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\autofac.extras.dynamicproxy\\7.0.0\\autofac.extras.dynamicproxy.7.0.0.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
@@ -64,5 +65,24 @@
     "C:\\Users\\incar\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Hata Olarak Uyarı: Autofac.Extras.DynamicProxy paketi için 7.1.0 sürümünden 7.0.0 sürümüne düşürme algılandı. Farklı bir sürüm seçmek için doğrudan projeden pakete başvurun. \r\n Business -> Entities -> Core -> Autofac.Extras.DynamicProxy (>= 7.1.0) \r\n Business -> Autofac.Extras.DynamicProxy (>= 7.0.0)",
+      "libraryId": "Autofac.Extras.DynamicProxy",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Hata Olarak Uyarı: Autofac.Extras.DynamicProxy paketi için 7.1.0 sürümünden 7.0.0 sürümüne düşürme algılandı. Farklı bir sürüm seçmek için doğrudan projeden pakete başvurun. \r\n Business -> DataAccsess -> Core -> Autofac.Extras.DynamicProxy (>= 7.1.0) \r\n Business -> Autofac.Extras.DynamicProxy (>= 7.0.0)",
+      "libraryId": "Autofac.Extras.DynamicProxy",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
