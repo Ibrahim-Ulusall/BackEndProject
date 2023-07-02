@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "9gj5UK3ht0+I8+RwbZwsK3/YIMCWK1MAxtRnboYnhuSAZ829nyIkqvfNlCRxgDFY/FbxfnnFh7ZawmHX8pke4w==",
-  "success": false,
+  "dgSpecHash": "Byl4uVrFopSkt5VmATRVJ1bs6oOfNHS/uD+9JWdYgr68JW7iqe5ssJIlEbusm88z87d74TGHieghWchrq/LSTg==",
+  "success": true,
   "projectFilePath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\incar\\.nuget\\packages\\autofac\\7.0.1\\autofac.7.0.1.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
-    "C:\\Users\\incar\\.nuget\\packages\\autofac.extras.dynamicproxy\\7.0.0\\autofac.extras.dynamicproxy.7.0.0.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\autofac.extras.dynamicproxy\\7.1.0\\autofac.extras.dynamicproxy.7.1.0.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
@@ -15,20 +15,20 @@
     "C:\\Users\\incar\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.1.0\\microsoft.data.sqlclient.sni.runtime.5.1.0.nupkg.sha512",
-    "C:\\Users\\incar\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0-preview.4.23259.3\\microsoft.entityframeworkcore.8.0.0-preview.4.23259.3.nupkg.sha512",
-    "C:\\Users\\incar\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.0-preview.4.23259.3\\microsoft.entityframeworkcore.abstractions.8.0.0-preview.4.23259.3.nupkg.sha512",
-    "C:\\Users\\incar\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.0-preview.4.23259.3\\microsoft.entityframeworkcore.analyzers.8.0.0-preview.4.23259.3.nupkg.sha512",
-    "C:\\Users\\incar\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.0-preview.4.23259.3\\microsoft.entityframeworkcore.relational.8.0.0-preview.4.23259.3.nupkg.sha512",
-    "C:\\Users\\incar\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.0-preview.4.23259.3\\microsoft.entityframeworkcore.sqlserver.8.0.0-preview.4.23259.3.nupkg.sha512",
-    "C:\\Users\\incar\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0-preview.4.23259.5\\microsoft.extensions.caching.abstractions.8.0.0-preview.4.23259.5.nupkg.sha512",
-    "C:\\Users\\incar\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0-preview.4.23259.5\\microsoft.extensions.caching.memory.8.0.0-preview.4.23259.5.nupkg.sha512",
-    "C:\\Users\\incar\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0-preview.4.23259.5\\microsoft.extensions.configuration.abstractions.8.0.0-preview.4.23259.5.nupkg.sha512",
-    "C:\\Users\\incar\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0-preview.4.23259.5\\microsoft.extensions.dependencyinjection.8.0.0-preview.4.23259.5.nupkg.sha512",
-    "C:\\Users\\incar\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0-preview.4.23259.5\\microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.4.23259.5.nupkg.sha512",
-    "C:\\Users\\incar\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0-preview.4.23259.5\\microsoft.extensions.logging.8.0.0-preview.4.23259.5.nupkg.sha512",
-    "C:\\Users\\incar\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0-preview.4.23259.5\\microsoft.extensions.logging.abstractions.8.0.0-preview.4.23259.5.nupkg.sha512",
-    "C:\\Users\\incar\\.nuget\\packages\\microsoft.extensions.options\\8.0.0-preview.4.23259.5\\microsoft.extensions.options.8.0.0-preview.4.23259.5.nupkg.sha512",
-    "C:\\Users\\incar\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0-preview.4.23259.5\\microsoft.extensions.primitives.8.0.0-preview.4.23259.5.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0-preview.5.23280.1\\microsoft.entityframeworkcore.8.0.0-preview.5.23280.1.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.0-preview.5.23280.1\\microsoft.entityframeworkcore.abstractions.8.0.0-preview.5.23280.1.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.0-preview.5.23280.1\\microsoft.entityframeworkcore.analyzers.8.0.0-preview.5.23280.1.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.0-preview.5.23280.1\\microsoft.entityframeworkcore.relational.8.0.0-preview.5.23280.1.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.0-preview.5.23280.1\\microsoft.entityframeworkcore.sqlserver.8.0.0-preview.5.23280.1.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0-preview.5.23280.8\\microsoft.extensions.caching.abstractions.8.0.0-preview.5.23280.8.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0-preview.5.23280.8\\microsoft.extensions.caching.memory.8.0.0-preview.5.23280.8.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0-preview.5.23280.8\\microsoft.extensions.configuration.abstractions.8.0.0-preview.5.23280.8.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0-preview.5.23280.8\\microsoft.extensions.dependencyinjection.8.0.0-preview.5.23280.8.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0-preview.5.23280.8\\microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.5.23280.8.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0-preview.5.23280.8\\microsoft.extensions.logging.8.0.0-preview.5.23280.8.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0-preview.5.23280.8\\microsoft.extensions.logging.abstractions.8.0.0-preview.5.23280.8.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\microsoft.extensions.options\\8.0.0-preview.5.23280.8\\microsoft.extensions.options.8.0.0-preview.5.23280.8.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0-preview.5.23280.8\\microsoft.extensions.primitives.8.0.0-preview.5.23280.8.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\microsoft.identity.client\\4.47.2\\microsoft.identity.client.4.47.2.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\2.19.3\\microsoft.identity.client.extensions.msal.2.19.3.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.24.0\\microsoft.identitymodel.abstractions.6.24.0.nupkg.sha512",
@@ -65,24 +65,5 @@
     "C:\\Users\\incar\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Hata Olarak Uyarı: Autofac.Extras.DynamicProxy paketi için 7.1.0 sürümünden 7.0.0 sürümüne düşürme algılandı. Farklı bir sürüm seçmek için doğrudan projeden pakete başvurun. \r\n Business -> Entities -> Core -> Autofac.Extras.DynamicProxy (>= 7.1.0) \r\n Business -> Autofac.Extras.DynamicProxy (>= 7.0.0)",
-      "libraryId": "Autofac.Extras.DynamicProxy",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Hata Olarak Uyarı: Autofac.Extras.DynamicProxy paketi için 7.1.0 sürümünden 7.0.0 sürümüne düşürme algılandı. Farklı bir sürüm seçmek için doğrudan projeden pakete başvurun. \r\n Business -> DataAccsess -> Core -> Autofac.Extras.DynamicProxy (>= 7.1.0) \r\n Business -> Autofac.Extras.DynamicProxy (>= 7.0.0)",
-      "libraryId": "Autofac.Extras.DynamicProxy",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }
