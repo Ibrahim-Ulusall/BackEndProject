@@ -3,6 +3,7 @@ using Business.Contants;
 using Business.Validation.FluentValidation;
 using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.Validation;
+using Core.Utilities.Business;
 using Core.Utilities.Results;
 using DataAccsess.Abstract;
 using Entities.Concrete;
@@ -25,12 +26,13 @@ namespace Business.Concrete
 
 		public IResult Add(Product product)
 		{
-			if (CheckIfProductCountOfCategoryCorrect(product.CategoryId).Success)
-			{
-				_productDal.Add(product);
-				return new SuccessResult(Messages.AddedMessage);
-			}
-			return new ErrorResult();
+
+			IResult result = BusinessRules.Run(CheckIfProductCountOfCategoryCorrect(product.CategoryId),
+				CheckIfProductNameExists(product.ProductName));
+			if (result != null)
+				return result;
+			_productDal.Add(product);
+			return new SuccessResult(Messages.AddedMessage);
 		}
 
 		public IDataResult<List<Product>> GetAll()
@@ -53,6 +55,18 @@ namespace Business.Concrete
 			int a = _productDal.GetAll(p => p.CategoryId == categoryId).Count;
 			if (a > 10)
 				return new ErrorResult("Bir Kategoride en fazla on ürün olabilir.");
+			return new SuccessResult();
+		}
+
+		private IResult CheckIfProductNameExists(string name)
+		{
+			bool result = _productDal.GetAll(p => p.ProductName == name).Any();
+
+			if (result)
+			{
+				return new ErrorResult("Aynı isimde Ürün sistemde mevcut!");
+			}
+
 			return new SuccessResult();
 		}
 	}
