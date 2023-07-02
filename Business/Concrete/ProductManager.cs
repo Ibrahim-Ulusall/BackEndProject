@@ -6,6 +6,7 @@ using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Business;
 using Core.Utilities.Results;
 using DataAccsess.Abstract;
+using DataAccsess.Concrete.Entity_Framework;
 using Entities.Concrete;
 using Entities.DTOs;
 using System;
@@ -19,16 +20,19 @@ namespace Business.Concrete
 	public class ProductManager : IProductService
 	{
 		IProductDal _productDal;
-		public ProductManager(IProductDal productDal)
+		ICategoryService _categoryManager;
+		public ProductManager(IProductDal productDal, ICategoryService categoryManager)
 		{
 			_productDal = productDal;
+			_categoryManager = categoryManager;
 		}
 
 		public IResult Add(Product product)
 		{
 
 			IResult result = BusinessRules.Run(CheckIfProductCountOfCategoryCorrect(product.CategoryId),
-				CheckIfProductNameExists(product.ProductName));
+				CheckIfProductNameExists(product.ProductName),
+				CheckIfCategoryCount());
 			if (result != null)
 				return result;
 			_productDal.Add(product);
@@ -67,6 +71,14 @@ namespace Business.Concrete
 				return new ErrorResult("Aynı isimde Ürün sistemde mevcut!");
 			}
 
+			return new SuccessResult();
+		}
+
+		private IResult CheckIfCategoryCount()
+		{
+			int result = _categoryManager.GetAll().Data.Count;
+			if (result > 15)
+				return new ErrorResult("Mevcut Kategori Sayısı 15\'i Geçemez!");
 			return new SuccessResult();
 		}
 	}
