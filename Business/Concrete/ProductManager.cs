@@ -26,7 +26,7 @@ namespace Business.Concrete
 			_productDal = productDal;
 			_categoryManager = categoryManager;
 		}
-
+		[ValidationAspect(typeof(ProductValidator))]
 		public IResult Add(Product product)
 		{
 
