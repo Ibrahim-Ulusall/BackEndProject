@@ -11,6 +11,7 @@ using Business.Concrete;
 using DataAccsess.Abstract;
 using DataAccsess.Concrete.EntityFramework;
 using Core.Utilities.Interceptors;
+using DataAccsess.Concrete.Entity_Framework;
 
 namespace Business.DependencyResolvers.Autofac
 {
@@ -20,6 +21,8 @@ namespace Business.DependencyResolvers.Autofac
 		{
 			builder.RegisterType<ProductManager>().As<IProductService>().SingleInstance();
 			builder.RegisterType<EfProductDal>().As<IProductDal>().SingleInstance();
+			builder.RegisterType<CategoryManager>().As<ICategoryService>().SingleInstance();
+			builder.RegisterType<EfCategoryDal>().As<ICategoryDal>().SingleInstance();
 
 			var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 

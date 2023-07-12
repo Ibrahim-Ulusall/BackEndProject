@@ -1,55 +1,38 @@
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
+using Business.Abstract;
+using Business.Concrete;
 using Business.DependencyResolvers.Autofac;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
+using WebAPI.Controllers;
 
-public class Program
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+
+builder.Services.AddControllers();
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
+builder.Host.ConfigureContainer<ContainerBuilder>(builder =>
 {
-	public static void Main(string[] args)
-	{
-		var host = CreateHostBuilder(args).Build();
-		host.Run();
-	}
+	builder.RegisterModule(new AutofacBusinessModule());
+});
 
-	public static IHostBuilder CreateHostBuilder(string[] args) =>
-		Host.CreateDefaultBuilder(args)
-			.UseServiceProviderFactory(new AutofacServiceProviderFactory())
-			.ConfigureContainer<ContainerBuilder>(builder =>
-			{
-				builder.RegisterModule(new AutofacBusinessModule());
-			})
-			.ConfigureWebHostDefaults(webBuilder =>
-			{
-				webBuilder.ConfigureServices(services =>
-				{
-					services.AddControllers();
-					services.AddEndpointsApiExplorer();
-					services.AddSwaggerGen();
-					// services.AddSingleton<IProductService, ProductManager>();
-					// services.AddSingleton<IProductDal, EfProductDal>();
-				});
+var app = builder.Build();
 
-				webBuilder.Configure(app =>
-				{
-					var env = app.ApplicationServices.GetService<IWebHostEnvironment>();
-
-					if (env.IsDevelopment())
-					{
-						app.UseSwagger();
-						app.UseSwaggerUI();
-					}
-
-					app.UseHttpsRedirection();
-					app.UseAuthorization();
-					app.UseRouting();
-
-					app.UseEndpoints(endpoints =>
-					{
-						endpoints.MapControllers();
-					});
-				});
-			});
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+	app.UseSwagger();
+	app.UseSwaggerUI();
 }
+
+app.UseHttpsRedirection();
+
+app.UseAuthorization();
+
+app.MapControllers();
+
+app.Run();
