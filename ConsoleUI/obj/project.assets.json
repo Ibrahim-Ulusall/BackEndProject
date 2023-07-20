@@ -1094,7 +1094,8 @@
           "Autofac.Extensions.DependencyInjection": "8.0.0",
           "Autofac.Extras.DynamicProxy": "7.1.0",
           "FluentValidation": "11.5.2",
-          "Microsoft.EntityFrameworkCore": "8.0.0-preview.5.23280.1"
+          "Microsoft.EntityFrameworkCore": "8.0.0-preview.5.23280.1",
+          "Microsoft.IdentityModel.Tokens": "6.24.0"
         },
         "compile": {
           "bin/placeholder/Core.dll": {}
