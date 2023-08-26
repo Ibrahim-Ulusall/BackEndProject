@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Core",
+    "\\Core\\Utilities",
+    "\\Core\\Utilities\\Security",
+    "\\Core\\Utilities\\Security\\Encryption",
+    "\\Core\\Utilities\\Security\\Hashing",
+    "\\Core\\Utilities\\Security\\JWT",
+    "\\WebAPI"
   ],
-  "SelectedNode": "\\Final Project.sln",
   "PreviewInSolutionExplorer": false
 }

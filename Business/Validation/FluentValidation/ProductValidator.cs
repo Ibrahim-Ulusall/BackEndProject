@@ -16,6 +16,7 @@ namespace Business.Validation.FluentValidation
             RuleFor(p => p.UnitPrice).GreaterThan(0);
             RuleFor(p=>p.UnitsInStock).NotEmpty();
             RuleFor(p => (int)p.UnitsInStock).GreaterThanOrEqualTo(10);
+        
         }
     }
 }
