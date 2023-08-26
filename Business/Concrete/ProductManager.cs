@@ -54,7 +54,7 @@ namespace Business.Concrete
 		private IResult CheckIfProductCountOfCategoryCorrect(int categoryId)
 		{
 			int a = _productDal.GetAll(p => p.CategoryId == categoryId).Count;
-			if (a > 10)
+			if (a > 20)
 				return new ErrorResult("Bir Kategoride en fazla on ürün olabilir.");
 			return new SuccessResult();
 		}

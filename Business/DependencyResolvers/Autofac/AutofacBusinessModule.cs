@@ -12,6 +12,7 @@ using DataAccsess.Abstract;
 using DataAccsess.Concrete.EntityFramework;
 using Core.Utilities.Interceptors;
 using DataAccsess.Concrete.Entity_Framework;
+using Core.Utilities.Security.JWT;
 
 namespace Business.DependencyResolvers.Autofac
 {
@@ -23,6 +24,11 @@ namespace Business.DependencyResolvers.Autofac
 			builder.RegisterType<EfProductDal>().As<IProductDal>().SingleInstance();
 			builder.RegisterType<CategoryManager>().As<ICategoryService>().SingleInstance();
 			builder.RegisterType<EfCategoryDal>().As<ICategoryDal>().SingleInstance();
+			builder.RegisterType<UserManager>().As<IUserService>();
+			builder.RegisterType<EfUserDal>().As<IUserDal>();
+			builder.RegisterType<AuthManager>().As<IAuthService>();
+			builder.RegisterType<JwtHelper>().As<ITokenHelper>();
+
 
 			var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 
