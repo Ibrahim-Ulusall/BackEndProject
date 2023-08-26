@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Business.Aspects.Autofac;
 using Business.Contants;
 using Business.Validation.FluentValidation;
 using Core.Aspects.Autofac.Validation;
@@ -19,14 +20,16 @@ namespace Business.Concrete
 			_productDal = productDal;
 			_categoryManager = categoryManager;
 		}
-		
+		[SecuredOperation("admin,product.add")]
 		[ValidationAspect(typeof(ProductValidator))]
 		public IResult Add(Product product)
 		{
 
-			IResult result = BusinessRules.Run(CheckIfProductCountOfCategoryCorrect(product.CategoryId),
+			IResult? result = BusinessRules.Run
+				(CheckIfProductCountOfCategoryCorrect(product.CategoryId),
 				CheckIfProductNameExists(product.ProductName),
 				CheckIfCategoryCount());
+			
 			if (result != null)
 				return result;
 			_productDal.Add(product);

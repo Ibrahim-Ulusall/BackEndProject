@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "W8MGeT2AhunE6+JAEOygNrW51bmmM+24M10bjL9/yJbz3moMEXXW8Krzv4Y0lZAorIJdLgzeXvlj3e6OKgpeKg==",
+  "dgSpecHash": "SjAkQNXK049jH/+hy1pMPHeMgmlvMMqbLg1UXP5dK8F9cR+Vc0gplDAMq791Y+kozzoTmUIZaLlHZvIuiHLp0g==",
   "success": true,
   "projectFilePath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,9 @@
     "C:\\Users\\incar\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\microsoft.aspnet.signalr.core\\2.4.3\\microsoft.aspnet.signalr.core.2.4.3.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.21\\microsoft.aspnetcore.authentication.jwtbearer.6.0.21.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\incar\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",

@@ -11,6 +11,6 @@ namespace Business.Contants
 		public static string AddedMessage = "Ürün Eklendi";
 		public static string ProductNameInvalid = "Ürün Adı Geçersiz";
 		public static string ProductListed = "Ürünler Listelendi!";
-
+		public static string AuthorizationDenied = "Yetkiniz yok";
 	}
 }
