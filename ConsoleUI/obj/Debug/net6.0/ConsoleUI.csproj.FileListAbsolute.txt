@@ -160,3 +160,7 @@ C:\Users\incar\Source\Repos\Final Project\ConsoleUI\obj\Debug\net6.0\ref\Console
 \\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\ConsoleUI\bin\Debug\net6.0\System.Diagnostics.EventLog.dll
 \\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\ConsoleUI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
 \\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\ConsoleUI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\ConsoleUI\bin\Debug\net6.0\Microsoft.AspNetCore.Http.dll
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\ConsoleUI\bin\Debug\net6.0\Microsoft.AspNetCore.WebUtilities.dll
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\ConsoleUI\bin\Debug\net6.0\Microsoft.Extensions.ObjectPool.dll
+\\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\ConsoleUI\bin\Debug\net6.0\Microsoft.Net.Http.Headers.dll

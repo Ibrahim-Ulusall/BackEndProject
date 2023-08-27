@@ -13,6 +13,7 @@ using DataAccsess.Concrete.EntityFramework;
 using Core.Utilities.Interceptors;
 using DataAccsess.Concrete.Entity_Framework;
 using Core.Utilities.Security.JWT;
+using Microsoft.AspNetCore.Http;
 
 namespace Business.DependencyResolvers.Autofac
 {

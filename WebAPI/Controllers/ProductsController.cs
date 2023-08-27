@@ -12,11 +12,11 @@ namespace WebAPI.Controllers
 	public class ProductsController : ControllerBase
 	{
 		IProductService _productService;
-        public ProductsController(IProductService productService)
-        {
+		public ProductsController(IProductService productService)
+		{
 			_productService = productService;
-        }
-        [HttpGet("getall")]
+		}
+		[HttpGet("getall")]
 		public IActionResult GetAll()
 		{
 			var result = _productService.GetAll();
@@ -26,7 +26,7 @@ namespace WebAPI.Controllers
 		}
 
 		[HttpGet("getbyid")]
-	
+
 		public IActionResult GetByCategoryId(int id)
 		{
 			var result = _productService.GetAllByCategory(id);
@@ -38,10 +38,21 @@ namespace WebAPI.Controllers
 		[HttpPost("add")]
 		public IActionResult Post(Product product)
 		{
-			var result = _productService.Add(product);
-			if (result.Success)
-				return Ok(result);
-			return BadRequest(result.Message);
+			try
+			{
+				// İşlemi gerçekleştir ve sonucu al
+				var result = _productService.Add(product);
+
+				if (result.Success)
+					return Ok(result); // Başarılı ise 200 OK yanıtı dön
+
+				return BadRequest(result.Message); // Başarısız ise hata mesajını içeren 400 Bad Request yanıtı dön
+			}
+			catch (Exception ex)
+			{
+				// İstisna durumu oluştuğunda buraya düşecek
+				return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+			}
 		}
 	}
 }

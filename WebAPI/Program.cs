@@ -1,18 +1,19 @@
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Business.DependencyResolvers.Autofac;
-using Core.Utilities.IoC;
 using Core.Utilities.Security.JWT;
+using Core.Extensions;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Core.DependencyResolvers;
+using Core.Utilities.IoC;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
 var tokenOptions = builder.Configuration.GetSection("TokenOptions").Get<TokenOptions>();
-builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 	.AddJwtBearer(options =>
 	{
@@ -40,9 +41,13 @@ builder.Services.AddCors(options =>
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-ServiceTool.Create(builder.Services);
-builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
 
+builder.Services.AddDependencyResolvers(new ICoreModule[]
+{
+	new CoreModule()
+});
+
+builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
 builder.Host.ConfigureContainer<ContainerBuilder>(builder =>
 {
 	builder.RegisterModule(new AutofacBusinessModule());
@@ -51,7 +56,6 @@ builder.Host.ConfigureContainer<ContainerBuilder>(builder =>
 });
 
 var app = builder.Build();
-
 if (app.Environment.IsDevelopment())
 {
 	app.UseSwagger();
