@@ -2,6 +2,7 @@
 using Business.Aspects.Autofac;
 using Business.Contants;
 using Business.Validation.FluentValidation;
+using Core.Aspects.Autofac.Caching;
 using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Business;
 using Core.Utilities.Results;
@@ -35,7 +36,7 @@ namespace Business.Concrete
 			_productDal.Add(product);
 			return new SuccessResult(Messages.AddedMessage);
 		}
-
+		[CacheAspect]
 		public IDataResult<List<Product>> GetAll()
 		{
 			return new SuccessDataResult<List<Product>>(_productDal.GetAll(), Messages.ProductListed);
