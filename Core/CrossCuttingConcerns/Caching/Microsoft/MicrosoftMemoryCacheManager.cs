@@ -7,7 +7,7 @@ namespace Core.CrossCuttingConcerns.Caching.Microsoft
 {
 	public class MicrosoftMemoryCacheManager : ICacheManager
 	{
-		IMemoryCache _memoryCache;
+		IMemoryCache? _memoryCache;
         public MicrosoftMemoryCacheManager()
         {
 			_memoryCache = ServiceTool.ServiceProvider?.GetService<IMemoryCache>();
@@ -15,17 +15,17 @@ namespace Core.CrossCuttingConcerns.Caching.Microsoft
 
         public void Add(string key, object value, int duration)
 		{
-			_memoryCache.Set(key,value,TimeSpan.FromSeconds(duration));
+			_memoryCache?.Set(key,value,TimeSpan.FromSeconds(duration));
 		}
 
 		public object? Get(string key)
 		{
-			return _memoryCache.Get(key);
+			return _memoryCache?.Get(key);
 		}
 
 		public T? Get<T>(string key)
 		{
-			return _memoryCache.Get<T>(key);
+			return _memoryCache.Get<T?>(key);
 		}
 
 		public bool IsAdd(string key)
@@ -35,7 +35,7 @@ namespace Core.CrossCuttingConcerns.Caching.Microsoft
 
 		public void Remove(string key)
 		{
-			_memoryCache.Remove(key);
+			_memoryCache?.Remove(key);
 		}
 
 		public void RemoveByPattern(string pattern)

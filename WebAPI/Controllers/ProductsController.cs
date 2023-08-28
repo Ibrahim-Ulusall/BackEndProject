@@ -1,8 +1,5 @@
 ﻿using Business.Abstract;
-using Business.Concrete;
-using DataAccsess.Concrete.EntityFramework;
 using Entities.Concrete;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controllers
@@ -36,23 +33,30 @@ namespace WebAPI.Controllers
 		}
 
 		[HttpPost("add")]
-		public IActionResult Post(Product product)
+		public IActionResult Add(Product product)
 		{
 			try
 			{
-				// İşlemi gerçekleştir ve sonucu al
 				var result = _productService.Add(product);
 
 				if (result.Success)
-					return Ok(result); // Başarılı ise 200 OK yanıtı dön
+					return Ok(result);
 
-				return BadRequest(result.Message); // Başarısız ise hata mesajını içeren 400 Bad Request yanıtı dön
+				return BadRequest(result.Message);
 			}
 			catch (Exception ex)
 			{
-				// İstisna durumu oluştuğunda buraya düşecek
 				return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
 			}
+		}
+
+		[HttpDelete("delete")]
+		public IActionResult Delete(Product product)
+		{
+			var result = _productService.Delete(product);
+			if (result.Success)
+				return Ok(result.Message);
+			return BadRequest(result.Message);
 		}
 	}
 }

@@ -21,14 +21,16 @@ namespace Business.Concrete
 			_productDal = productDal;
 			_categoryManager = categoryManager;
 		}
+
 		[SecuredOperation("admin,product.add")]
 		[ValidationAspect(typeof(ProductValidator))]
+		[CacheRemoveAspect("IProductService.Get")]
 		public IResult Add(Product product)
 		{
 
 			IResult? result = BusinessRules.Run
 				(CheckIfProductCountOfCategoryCorrect(product.CategoryId),
-				CheckIfProductNameExists(product.ProductName),
+				CheckIfProductNameExists(product.ProductName ?? "<Null>"),
 				CheckIfCategoryCount());
 			
 			if (result != null)
@@ -36,17 +38,21 @@ namespace Business.Concrete
 			_productDal.Add(product);
 			return new SuccessResult(Messages.AddedMessage);
 		}
-		[CacheAspect]
+
+		[CacheAspect(duration:60)]
 		public IDataResult<List<Product>> GetAll()
 		{
-			return new SuccessDataResult<List<Product>>(_productDal.GetAll(), Messages.ProductListed);
+			var data = _productDal.GetAll();
+			return new SuccessDataResult<List<Product>>(data, Messages.ProductListed);
 		}
-
+		
+		[CacheAspect(duration:10)]
 		public IDataResult<List<Product>> GetAllByCategory(int id)
 		{
 			return new SuccessDataResult<List<Product>>(_productDal.GetAll(p => p.CategoryId == id));
 		}
-
+		
+		[CacheAspect]
 		public IDataResult<List<ProductDetailDto>> GetProductDetails()
 		{
 			return new SuccessDataResult<List<ProductDetailDto>>(_productDal.GetProductDetails());
@@ -78,6 +84,22 @@ namespace Business.Concrete
 			if (result > 15)
 				return new ErrorResult("Mevcut Kategori Sayısı 15\'i Geçemez!");
 			return new SuccessResult();
+		}
+
+		[SecuredOperation("product.delete,admin")]
+		[CacheRemoveAspect("IProductService.Get")]
+		public IResult Delete(Product product)
+		{
+			 _productDal.Delete(product);
+			return new SuccessResult(Messages.ProductDeleted);
+		}
+		
+		[SecuredOperation("product.update,admin")]
+		[CacheRemoveAspect("IProductService.Get")]
+		public IResult Update(Product product)
+		{
+			_productDal.Update(product);
+			return new SuccessResult(Messages.ProductUpdated);
 		}
 	}
 }
