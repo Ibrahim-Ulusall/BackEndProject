@@ -62,7 +62,7 @@ namespace Business.Concrete
 		{
 			int a = _productDal.GetAll(p => p.CategoryId == categoryId).Count;
 			if (a > 20)
-				return new ErrorResult("Bir Kategoride en fazla on ürün olabilir.");
+				return new ErrorResult(Messages.CheckIfProductCountOfCategoryCorrect);
 			return new SuccessResult();
 		}
 
@@ -72,7 +72,7 @@ namespace Business.Concrete
 
 			if (result)
 			{
-				return new ErrorResult("Aynı isimde Ürün sistemde mevcut!");
+				return new ErrorResult(Messages.CheckIfProductNameExists);
 			}
 
 			return new SuccessResult();
@@ -82,7 +82,7 @@ namespace Business.Concrete
 		{
 			int result = _categoryManager.GetAll().Data.Count;
 			if (result > 15)
-				return new ErrorResult("Mevcut Kategori Sayısı 15\'i Geçemez!");
+				return new ErrorResult(Messages.CheckIfCategoryCountError);
 			return new SuccessResult();
 		}
 

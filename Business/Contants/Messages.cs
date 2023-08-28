@@ -14,5 +14,8 @@ namespace Business.Contants
 		public static string ProductDeleted = "Ürün silindi.";
 		public static string ProductUpdated = "Ürün Güncellendi.";
 		public static string AuthorizationDenied = "Yetkiniz yok";
+		public static string CheckIfProductCountOfCategoryCorrect = "Bir Kategoride en fazla on ürün olabilir.";
+		public static string CheckIfProductNameExists = "Aynı isimde Ürün sistemde mevcut!";
+		public static string CheckIfCategoryCountError = "Mevcut Kategori Sayısı 15\'i Geçemez!";
 	}
 }
