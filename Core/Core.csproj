@@ -22,7 +22,6 @@
 
   <ItemGroup>
     <Folder Include="CrossCuttingConcerns\Caching\Redis\" />
-    <Folder Include="CrossCuttingConcerns\Performance\" />
   </ItemGroup>
 
 </Project>
