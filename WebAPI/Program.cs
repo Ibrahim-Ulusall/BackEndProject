@@ -52,7 +52,6 @@ builder.Host.ConfigureContainer<ContainerBuilder>(builder =>
 {
 	builder.RegisterModule(new AutofacBusinessModule());
 	builder.RegisterType<JwtHelper>().As<ITokenHelper>().SingleInstance();
-	// Register other dependencies here if needed
 });
 
 var app = builder.Build();

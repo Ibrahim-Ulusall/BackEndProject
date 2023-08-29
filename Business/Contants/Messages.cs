@@ -17,5 +17,9 @@ namespace Business.Contants
 		public static string CheckIfProductCountOfCategoryCorrect = "Bir Kategoride en fazla on ürün olabilir.";
 		public static string CheckIfProductNameExists = "Aynı isimde Ürün sistemde mevcut!";
 		public static string CheckIfCategoryCountError = "Mevcut Kategori Sayısı 15\'i Geçemez!";
+		public static string FirstNameNotEmpty = "Adı alanı boş geçilemez";
+		public static string LastNameNotEmpty = "Soyadı alanı boş geçilemez";
+		public static string EmailNotEmpty = "Email alanı boş geçilemez";
+		public static string NotEmailFormat = "Email Format Hatası";
 	}
 }
