@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lRjLDXCfROBJhf+rrjZpz/k+UaW4GJ/2VREImFNYtcouC066euLX9ekiEcVgzstfp3uluOIRwAbmMTpKrFvapQ==",
+  "dgSpecHash": "Nncr/aOsQXc/98uAucWrKJZgmj9J0Pbt9ouC/fxZpyhU32T3RT1AO1jryMnHG6NFWozGC/OQNwTBuPDygLp4AA==",
   "success": true,
-  "projectFilePath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\ConsoleUI\\ConsoleUI.csproj",
+  "projectFilePath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\incar\\.nuget\\packages\\autofac\\7.0.1\\autofac.7.0.1.nupkg.sha512",
     "C:\\Users\\incar\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",

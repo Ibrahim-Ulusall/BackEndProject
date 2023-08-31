@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\ConsoleUI\\ConsoleUI.csproj": {}
+    "C:\\Users\\incar\\Source\\Repos\\Final Project\\ConsoleUI\\ConsoleUI.csproj": {}
   },
   "projects": {
-    "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Business\\Business.csproj": {
+    "C:\\Users\\incar\\Source\\Repos\\Final Project\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\incar\\.nuget\\packages\\",
-        "outputPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Business\\obj\\",
+        "outputPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\DataAccsess.csproj": {
-                "projectPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\DataAccsess.csproj"
+              "C:\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\DataAccsess.csproj": {
+                "projectPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\DataAccsess.csproj"
               },
-              "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj": {
-                "projectPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj"
+              "C:\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj"
               }
             }
           }
@@ -89,14 +89,14 @@
         }
       }
     },
-    "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\ConsoleUI\\ConsoleUI.csproj": {
+    "C:\\Users\\incar\\Source\\Repos\\Final Project\\ConsoleUI\\ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\ConsoleUI\\ConsoleUI.csproj",
+        "projectUniqueName": "C:\\Users\\incar\\Source\\Repos\\Final Project\\ConsoleUI\\ConsoleUI.csproj",
         "projectName": "ConsoleUI",
-        "projectPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\ConsoleUI\\ConsoleUI.csproj",
+        "projectPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\ConsoleUI\\ConsoleUI.csproj",
         "packagesPath": "C:\\Users\\incar\\.nuget\\packages\\",
-        "outputPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\ConsoleUI\\obj\\",
+        "outputPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\ConsoleUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -118,14 +118,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Business\\Business.csproj": {
-                "projectPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Business\\Business.csproj"
+              "C:\\Users\\incar\\Source\\Repos\\Final Project\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Business\\Business.csproj"
               },
-              "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\DataAccsess.csproj": {
-                "projectPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\DataAccsess.csproj"
+              "C:\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\DataAccsess.csproj": {
+                "projectPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\DataAccsess.csproj"
               },
-              "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj": {
-                "projectPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj"
+              "C:\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj"
               }
             }
           }
@@ -159,14 +159,14 @@
         }
       }
     },
-    "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj": {
+    "C:\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\incar\\.nuget\\packages\\",
-        "outputPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Core\\obj\\",
+        "outputPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -265,14 +265,14 @@
         }
       }
     },
-    "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\DataAccsess.csproj": {
+    "C:\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\DataAccsess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\DataAccsess.csproj",
+        "projectUniqueName": "C:\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\DataAccsess.csproj",
         "projectName": "DataAccsess",
-        "projectPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\DataAccsess.csproj",
+        "projectPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\DataAccsess.csproj",
         "packagesPath": "C:\\Users\\incar\\.nuget\\packages\\",
-        "outputPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\obj\\",
+        "outputPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -294,11 +294,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj": {
-                "projectPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj"
+              "C:\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj"
               },
-              "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj": {
-                "projectPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj"
+              "C:\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj"
               }
             }
           }
@@ -338,14 +338,14 @@
         }
       }
     },
-    "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj": {
+    "C:\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\incar\\.nuget\\packages\\",
-        "outputPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -367,8 +367,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj": {
-                "projectPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj"
+              "C:\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj"
               }
             }
           }

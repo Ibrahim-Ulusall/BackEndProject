@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj": {}
+    "C:\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj": {}
   },
   "projects": {
-    "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj": {
+    "C:\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\incar\\.nuget\\packages\\",
-        "outputPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Core\\obj\\",
+        "outputPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

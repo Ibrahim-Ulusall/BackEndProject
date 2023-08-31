@@ -3921,11 +3921,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\incar\\Source\\Repos\\Final Project\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\WebAPI\\WebAPI.csproj",
+      "projectPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\incar\\.nuget\\packages\\",
-      "outputPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3947,11 +3947,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Business\\Business.csproj": {
-              "projectPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Business\\Business.csproj"
+            "C:\\Users\\incar\\Source\\Repos\\Final Project\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Business\\Business.csproj"
             },
-            "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj": {
-              "projectPath": "\\\\DESKTOP-2853N3D\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj"
+            "C:\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj"
             }
           }
         }

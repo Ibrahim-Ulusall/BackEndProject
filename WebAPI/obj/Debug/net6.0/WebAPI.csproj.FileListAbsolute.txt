@@ -195,3 +195,6 @@ C:\Users\incar\Source\Repos\Final Project\WebAPI\bin\Debug\net6.0\FluentValidati
 \\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 \\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
 \\DESKTOP-2853N3D\Users\incar\Source\Repos\Final Project\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\incar\Source\Repos\Final Project\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\incar\Source\Repos\Final Project\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\incar\Source\Repos\Final Project\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll

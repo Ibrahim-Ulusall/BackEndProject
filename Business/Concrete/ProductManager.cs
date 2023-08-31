@@ -39,7 +39,7 @@ namespace Business.Concrete
 			return new SuccessResult(Messages.AddedMessage);
 		}
 
-		[CacheAspect(duration:60)]
+		[CacheAspect(duration: 60)]
 		public IDataResult<List<Product>> GetAll()
 		{
 			var data = _productDal.GetAll();
@@ -49,7 +49,7 @@ namespace Business.Concrete
 		[CacheAspect(duration:10)]
 		public IDataResult<List<Product>> GetAllByCategory(int id)
 		{
-			return new SuccessDataResult<List<Product>>(_productDal.GetAll(p => p.CategoryId == id));
+			return new SuccessDataResult<List<Product>>(_productDal.GetAll(p => p.CategoryId == id).ToList());
 		}
 		
 		[CacheAspect]
