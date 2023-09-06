@@ -13,6 +13,15 @@ namespace WebAPI.Controllers
 		{
 			_productService = productService;
 		}
+		[HttpGet("getbyproductid")]
+		public IActionResult GetByProductId(int id)
+		{
+			var result = _productService.Get(id);
+			if (result.Success)
+				return Ok(result);
+			return BadRequest(result.Message);
+		}
+
 		[HttpGet("getall")]
 		public IActionResult GetAll()
 		{
@@ -23,7 +32,6 @@ namespace WebAPI.Controllers
 		}
 
 		[HttpGet("getbyid")]
-
 		public IActionResult GetByCategoryId(int id)
 		{
 			var result = _productService.GetAllByCategory(id);
@@ -35,25 +43,28 @@ namespace WebAPI.Controllers
 		[HttpPost("add")]
 		public IActionResult Add(Product product)
 		{
-			try
-			{
-				var result = _productService.Add(product);
+			var result = _productService.Add(product);
 
-				if (result.Success)
-					return Ok(result);
+			if (result.Success)
+				return Ok(result);
 
-				return BadRequest(result.Message);
-			}
-			catch (Exception ex)
-			{
-				return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
-			}
+			return BadRequest(result.Message);
+		
 		}
 
-		[HttpDelete("delete")]
+		[HttpPost("delete")]
 		public IActionResult Delete(Product product)
 		{
 			var result = _productService.Delete(product);
+			if (result.Success)
+				return Ok(result.Message);
+			return BadRequest(result.Message);
+		}
+
+		[HttpPost("update")]
+		public IActionResult Update(Product product)
+		{
+			var result = _productService.Update(product);
 			if (result.Success)
 				return Ok(result.Message);
 			return BadRequest(result.Message);

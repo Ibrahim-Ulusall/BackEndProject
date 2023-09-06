@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Core.DataAccess.EntityFramework;
 using Entities.DTOs;
+using Core.Entites;
 
 namespace DataAccsess.Concrete.EntityFramework
 {
@@ -32,5 +33,6 @@ namespace DataAccsess.Concrete.EntityFramework
 			}
 			
 		}
+		
 	}
 }

@@ -25,7 +25,8 @@ namespace Core.Aspects.Autofac.Performance
 		protected override void OnAfter(IInvocation invocation)
 		{
 			if (_stopWatch?.Elapsed.TotalSeconds > _interval)
-				Debug.WriteLine($"Performance : {invocation.Method.DeclaringType?.FullName}.{invocation.Method.Name} " +
+				Debug.WriteLine($"Performance : {invocation.Method.DeclaringType?.FullName}." +
+					$"{invocation.Method.Name} " +
 					$"--> {_stopWatch.Elapsed.TotalSeconds}");
 			_stopWatch?.Reset();
 		}

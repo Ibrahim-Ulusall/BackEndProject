@@ -334,6 +334,14 @@
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
+      "Newtonsoft.Json/6.0.4": {
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.4.17603"
+          }
+        }
+      },
       "System.Buffers/4.5.0": {},
       "System.Diagnostics.DiagnosticSource/4.7.1": {},
       "System.Diagnostics.EventLog/6.0.0": {
@@ -399,6 +407,7 @@
           "Microsoft.Extensions.Configuration": "8.0.0-preview.7.23375.6",
           "Microsoft.Extensions.Configuration.Binder": "8.0.0-preview.7.23375.6",
           "Microsoft.IdentityModel.Tokens": "6.24.0",
+          "Newtonsoft.Json": "6.0.4",
           "System.IdentityModel.Tokens.Jwt": "6.24.0"
         },
         "runtime": {
@@ -636,6 +645,13 @@
       "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/6.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FyQLmEpjsCrEP+znauLDGAi+h6i9YnaMkITlfIoiM4RYyX3nki306bTHsr/0okiIvIc7BJhQTbOAIZVocccFUw==",
+      "path": "newtonsoft.json/6.0.4",
+      "hashPath": "newtonsoft.json.6.0.4.nupkg.sha512"
     },
     "System.Buffers/4.5.0": {
       "type": "package",

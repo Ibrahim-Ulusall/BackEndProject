@@ -4,8 +4,6 @@ using DataAccsess.Concrete.EntityFramework;
 using DataAccsess.Concrete.InMemory;
 using Entities.Concrete;
 
-ProductTest();
-//CategoryTest();
 static void ProductTest()
 {
 	ProductManager productManager = new ProductManager(new EfProductDal(),new CategoryManager(new EfCategoryDal()));
@@ -25,6 +23,8 @@ static void CategoryTest()
 		Console.WriteLine(category.CategoryName);
 	}
 }
+
 CategoryManager categoryManager = new CategoryManager(new EfCategoryDal());
+
 
 Console.WriteLine(categoryManager.GetById(1).Data.CategoryName);

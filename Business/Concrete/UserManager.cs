@@ -4,6 +4,7 @@ using Business.Validation.FluentValidation;
 using Core.Aspects.Autofac.Caching;
 using Core.Aspects.Autofac.Validation;
 using Core.Entities.Concrete.Users;
+using Core.Utilities.Results;
 using DataAccsess.Abstract;
 
 namespace Business.Concrete
@@ -21,12 +22,12 @@ namespace Business.Concrete
 			return _userDal.GetClaims(user);
 		}
 
-		[SecuredOperation("admin,user.add")]
 		[ValidationAspect(typeof(UserValidator))]
 		[CacheRemoveAspect("IUserService.Get")]
-		public void Add(User user)
+		public IResult Add(User user)
 		{
 			_userDal.Add(user);
+			return new SuccessResult("User Added");
 		}
 
 		[CacheAspect]
@@ -38,17 +39,32 @@ namespace Business.Concrete
 		[SecuredOperation("admin,user.delete")]
 		[ValidationAspect(typeof(UserValidator))]
 		[CacheRemoveAspect("IUserService.Get")]
-		public void Delete(User user)
+		public IResult Delete(User user)
 		{
 			_userDal.Delete(user);
+			return new SuccessResult("User Deleted");
 		}
 		
 		[SecuredOperation("admin,user.update")]
 		[ValidationAspect(typeof(UserValidator))]
 		[CacheRemoveAspect("IUserService.Get")]
-		public void Update(User user)
+		public IResult Update(User user)
 		{
 			_userDal.Update(user);
+			return new SuccessResult("User Updated");
+
+		}
+
+		public IDataResult<List<User>> GetAll()
+		{
+			var result = _userDal.GetAll();
+			return new SuccessDataResult<List<User>>(data: result);
+		}
+
+		public IDataResult<User> Get(int userId)
+		{
+			var result = _userDal.Get(u => u.Id == userId);
+			return new SuccessDataResult<User>(data: result);
 		}
 	}
 }

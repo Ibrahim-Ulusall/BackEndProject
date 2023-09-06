@@ -88,18 +88,26 @@ namespace Business.Concrete
 
 		[SecuredOperation("product.delete,admin")]
 		[CacheRemoveAspect("IProductService.Get")]
+		[ValidationAspect(typeof(ProductValidator))]
 		public IResult Delete(Product product)
 		{
 			 _productDal.Delete(product);
 			return new SuccessResult(Messages.ProductDeleted);
 		}
-		
+
 		[SecuredOperation("product.update,admin")]
 		[CacheRemoveAspect("IProductService.Get")]
+		[ValidationAspect(typeof(ProductValidator))]
 		public IResult Update(Product product)
 		{
 			_productDal.Update(product);
 			return new SuccessResult(Messages.ProductUpdated);
+		}
+
+		public IDataResult<Product> Get(int id)
+		{
+			var result = _productDal.Get(p => p.ProductId == id);
+			return new SuccessDataResult<Product>(data: result);
 		}
 	}
 }

@@ -65,5 +65,6 @@ namespace Core.DataAccess.EntityFramework
 			}
 		}
 		#endregion
+
 	}
 }

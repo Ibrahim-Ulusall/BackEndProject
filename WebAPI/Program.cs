@@ -8,10 +8,13 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Core.DependencyResolvers;
 using Core.Utilities.IoC;
+using Business.Abstract;
+using Business.Concrete;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
+
 
 var tokenOptions = builder.Configuration.GetSection("TokenOptions").Get<TokenOptions>();
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -52,6 +55,8 @@ if (app.Environment.IsDevelopment())
 	app.UseSwagger();
 	app.UseSwaggerUI();
 }
+app.CustomCreateMiddleware();
+
 app.UseCors(builder =>
 {
 	builder.WithOrigins("http://localhost:4200").AllowAnyHeader();

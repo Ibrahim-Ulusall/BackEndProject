@@ -804,6 +804,7 @@
           "Microsoft.Extensions.Configuration": "8.0.0-preview.7.23375.6",
           "Microsoft.Extensions.Configuration.Binder": "8.0.0-preview.7.23375.6",
           "Microsoft.IdentityModel.Tokens": "6.24.0",
+          "Newtonsoft.Json": "6.0.4",
           "System.IdentityModel.Tokens.Jwt": "6.24.0"
         },
         "runtime": {

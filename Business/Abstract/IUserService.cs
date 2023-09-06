@@ -1,4 +1,5 @@
 ﻿using Core.Entities.Concrete.Users;
+using Core.Utilities.Results;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,9 +11,11 @@ namespace Business.Abstract
 	public interface IUserService
 	{
 		List<OperationClaim> GetClaims(User user);
-		void Add(User user);
-		void Delete(User user);
-		void Update(User user);
+		IResult Add(User user);
+		IResult Delete(User user);
+		IResult Update(User user);
+		IDataResult<List<User>> GetAll();
+		IDataResult<User> Get(int userId);
 		User GetByMail(string email);
 	}
 }
