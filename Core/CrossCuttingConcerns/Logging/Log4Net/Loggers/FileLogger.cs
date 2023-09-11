@@ -1,4 +1,4 @@
-﻿using log4net;
+﻿using log4net;  
 
 namespace Core.CrossCuttingConcerns.Logging.Log4Net.Loggers
 {
