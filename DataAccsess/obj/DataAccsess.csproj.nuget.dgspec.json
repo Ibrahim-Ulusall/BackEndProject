@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\DataAccsess.csproj": {}
+    "C:\\Users\\ibrahim\\source\\repos\\backendproject\\DataAccsess\\DataAccsess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj": {
+    "C:\\Users\\ibrahim\\source\\repos\\backendproject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\ibrahim\\source\\repos\\backendproject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\incar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Core\\obj\\",
+        "projectPath": "C:\\Users\\ibrahim\\source\\repos\\backendproject\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\ibrahim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ibrahim\\source\\repos\\backendproject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\incar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ibrahim\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -92,6 +91,10 @@
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[6.24.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
             }
           },
           "imports": [
@@ -114,20 +117,20 @@
         }
       }
     },
-    "C:\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\DataAccsess.csproj": {
+    "C:\\Users\\ibrahim\\source\\repos\\backendproject\\DataAccsess\\DataAccsess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\DataAccsess.csproj",
+        "projectUniqueName": "C:\\Users\\ibrahim\\source\\repos\\backendproject\\DataAccsess\\DataAccsess.csproj",
         "projectName": "DataAccsess",
-        "projectPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\DataAccsess.csproj",
-        "packagesPath": "C:\\Users\\incar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\DataAccsess\\obj\\",
+        "projectPath": "C:\\Users\\ibrahim\\source\\repos\\backendproject\\DataAccsess\\DataAccsess.csproj",
+        "packagesPath": "C:\\Users\\ibrahim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ibrahim\\source\\repos\\backendproject\\DataAccsess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\incar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ibrahim\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -136,18 +139,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj"
+              "C:\\Users\\ibrahim\\source\\repos\\backendproject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\ibrahim\\source\\repos\\backendproject\\Core\\Core.csproj"
               },
-              "C:\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj"
+              "C:\\Users\\ibrahim\\source\\repos\\backendproject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\ibrahim\\source\\repos\\backendproject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -187,20 +189,20 @@
         }
       }
     },
-    "C:\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj": {
+    "C:\\Users\\ibrahim\\source\\repos\\backendproject\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\ibrahim\\source\\repos\\backendproject\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\incar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\ibrahim\\source\\repos\\backendproject\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\ibrahim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ibrahim\\source\\repos\\backendproject\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\incar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ibrahim\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -209,15 +211,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\incar\\Source\\Repos\\Final Project\\Core\\Core.csproj"
+              "C:\\Users\\ibrahim\\source\\repos\\backendproject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\ibrahim\\source\\repos\\backendproject\\Core\\Core.csproj"
               }
             }
           }
